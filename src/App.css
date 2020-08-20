@@ -1,0 +1,275 @@
+html{
+  overflow-x: hidden;
+}
+/* Header.js starts */
+.header  .jumbo{
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header .jumbo .slogan{
+  float: left;
+}
+.header .navbar .fas{
+  color: skyblue;
+}
+.header .jumbo li {
+  float: right;
+}
+.header .jumbo li a{
+  display: block;
+  color: #003152;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 30px;
+}
+
+.header .navbar{
+  margin-bottom: 0;
+  background-color: #003152;
+  z-index: 9999;
+  border: 0;
+  font-size: 20px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.header .navbar .dropdown button{
+  background-color: #003152;
+  font-size: 20px !important;
+  color: white;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  height: 50px;
+  outline: none;
+  border: 0;
+}
+.header .navbar .dropdown .dropdown-menu{
+  background-color: #003152 !important;
+  font-size: 18px;
+  padding: 20px 25px;
+}
+.header .navbar li a, .header .navbar .navbar-brand {
+  color: white!important;
+}
+
+.header .navbar-nav li a:hover,.header .navbar-nav li.active a, .header .navbar .dropdown button:hover {
+  color: #003152 !important;
+  background-color: white !important;
+}
+
+.header .navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #003152 !important;
+}
+/* Header.js closes */
+
+/* Home.js starts */
+.home{
+  margin: 10px;
+}
+.home h3{
+  text-align: center;
+}
+
+.home .well .card{
+  background-color: #003152;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  box-shadow: 0 2px 4px 0 black;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.home .well .card:hover{
+  box-shadow: 2px 6px 8px 2px black;
+}
+
+.home .well h4{
+  color: skyblue;
+  font-size: 18px;
+}
+.home .well a{
+  text-decoration: none;
+}
+.home .ocean .card{
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 50px 60px;
+  color: #003152;
+  font-size: 20px;
+  border: 2px solid #003152;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.home .ocean img{
+  width: 400px;
+  height: 250px;
+  margin-top: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.home .ocean {
+  margin-bottom: 50px;
+}
+/* Home.js closes */ 
+
+/* PostLists.js starts */
+.ajax .image{
+  background-image: url('./components/Images/water8.jpg');
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  /* padding: 200px 350px; */  
+}
+.ajax .post-card{
+  background-color: white;
+  border-radius: 0 35px;
+  border: 2px solid #003152;
+  margin: 50px;
+  color: #003152;
+  padding: 50px;
+  font-size: 20px;
+}
+.ajax .post-card:nth-child(even){
+  background-color: #003152;
+  border-radius: 35px 0;
+  border: 2px solid white;
+  margin: 50px;
+  color: white;
+  padding: 50px;
+  font-size: 20px
+}
+.ajax .post-card h4{
+  font-size: 25px;
+}
+/* PostLists.js closes */
+
+/* PostForm.js starts */
+.form form{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  height: 360px;
+  border-radius: 10px;
+}
+.form form input{
+  width: 100%;
+  border: 2px solid #003152;
+  outline: 0;
+  background-color: white;
+  color: #003152;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.form form .btn{
+  background-color: #003152;
+  padding: 10px 25px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  color: white;
+
+}
+/* PostForm.js closes */
+
+/* Footer.js starts */
+.footer{
+  background-color: #003152;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 30px;
+  bottom: 0;
+}
+/* Footer.js closes */
+
+/* HooksCounter.js , UseEffect.js starts */
+.hook-counter, .useEffect, .useReducer{
+  padding: 50px 30px 50px 30px;
+}
+.hook-counter h1 , .useEffect h1, .useReducer h1{
+  text-align: center;
+  color: #003152;
+}
+.hook-counter .card, .useEffect .card, .useReducer .card{
+  background-color: #003152;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 black;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 20px;
+  margin: 25px;
+  height: 300px;
+  width: 380px;
+}
+.hook-counter .card:hover , .useEffect .card:hover, .useReducer .card:hover{
+  box-shadow: 2px 4px 6px 2px black;
+}
+.hook-counter .card input, .useEffect .card input, .useReducer .card input{
+  width: 100%;
+  outline: 0;
+  background-color: white;
+  color: #003152;
+  padding: 14px !important;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.useEffect .fetched{
+  background-color: rgb(241, 239, 239);
+  border-radius: 10px;
+  color: #003152;
+  padding: 40px 45px;
+  margin: 20px;
+}
+.useEffect .fetched .card-comments{
+  border-radius: 10px;
+  background-color: #003152;
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+  padding: 30px 35px;
+}
+.useEffect .fetched input{
+  padding:20px !important;
+  border: 2px solid #003152;
+  background-color: inherit;
+  border-radius: 10px;
+  font-size: 22px;
+  outline: 0;
+}
+.hook-counter .card ul, .useEffect .card ul{
+  text-decoration: none;
+}
+.hook-counter .card li, .useEffect .card li{
+  list-style-type: none;
+  float: left;
+}
+.hook-counter .card button, .useEffect .card button, .useReducer .card button{
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  background-color: white;
+  color: #003152;
+}
+
+/* HooksCounter.js, UseEffect.js closes */
+
+
